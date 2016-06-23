@@ -1458,12 +1458,6 @@ K AVR 8-bit Microcontroller tinyAVR Discontinued
 F http://www.atmel.com/Images/doc1006.pdf
 $ENDCMP
 #
-$CMP ATTINY10-TS
-D SOT-23-6, 1k Flash, 32B SRAM, No EEPROM, ADC
-K AVR 8bit Microcontroller tinyAVR
-F http://www.atmel.com/images/atmel-8127-avr-8-bit-microcontroller-attiny4-attiny5-attiny9-attiny10_datasheet-summary.pdf
-$ENDCMP
-#
 $CMP ATTINY11-P
 D PDIP8, 1k Flash, No SRAM, No EEPROM
 K AVR 8bit Microcontroller tinyAVR
@@ -1818,12 +1812,6 @@ K AVR 8bit Microcontroller tinyAVR IR
 F http://www.atmel.com/Images/doc1062.pdf
 $ENDCMP
 #
-$CMP ATTINY4-TS
-D SOT-23-6, 512B Flash, 32B SRAM, No EEPROM
-K AVR 8bit Microcontroller tinyAVR
-F http://www.atmel.com/images/atmel-8127-avr-8-bit-microcontroller-attiny4-attiny5-attiny9-attiny10_datasheet-summary.pdf
-$ENDCMP
-#
 $CMP ATTINY40-MM
 D MLF/VQFN20, 4k Flash, 256B SRAM, No EEPROM
 K AVR 8bit Microcontroller tinyAVR
@@ -2010,12 +1998,6 @@ K AVR 8bit Microcontroller tinyAVR
 F http://www.atmel.com/Images/doc8008.pdf
 $ENDCMP
 #
-$CMP ATTINY5-TS
-D SOT-23-6, 512B Flash, 32B SRAM, No EEPROM, ADC
-K AVR 8bit Microcontroller tinyAVR
-F http://www.atmel.com/images/atmel-8127-avr-8-bit-microcontroller-attiny4-attiny5-attiny9-attiny10_datasheet-summary.pdf
-$ENDCMP
-#
 $CMP ATTINY84-M
 D QFN/MLF20, 8k Flash, 512B SRAM, 512B EEPROM, dW
 K AVR 8bit Microcontroller tinyAVR
@@ -2188,12 +2170,6 @@ $CMP ATTINY88-P
 D PDIP28 Narrow, 8k Flash, 512B SRAM, 64B EEPROM
 K AVR 8bit Microcontroller tinyAVR
 F http://www.atmel.com/Images/doc8008.pdf
-$ENDCMP
-#
-$CMP ATTINY9-TS
-D SOT-23-6, 1024B Flash, 32B SRAM, No EEPROM
-K AVR 8bit Microcontroller tinyAVR
-F http://www.atmel.com/images/atmel-8127-avr-8-bit-microcontroller-attiny4-attiny5-attiny9-attiny10_datasheet-summary.pdf
 $ENDCMP
 #
 $CMP ATXMEGA128A1-A
@@ -2710,6 +2686,78 @@ $CMP ATXMEGA8E5-MU
 D VQFN32, 8k Flash, 2k Boot, 1k SRAM, 512B EEPROM
 K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8153-8-and-16-bit-AVR-Microcontroller-XMEGA-E-ATxmega8E5-ATxmega16E5-ATxmega32E5_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny10-MAHR
+D Atmel 8-bit AVR Microcontroller 12MHz with 1024 bytes flash and adc
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny10-TS8R
+D Atmel 8-bit AVR Microcontroller 12MHz with 1024 bytes flash and adc extended temperature range
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny10-TSHR
+D Atmel 8-bit AVR Microcontroller 12MHz with 1024 bytes flash and adc
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny4-MAHR
+D Atmel 8-bit AVR Microcontroller 12MHz with 512 bytes flash
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny4-TS8R
+D Atmel 8-bit AVR Microcontroller 10MHz with 512 bytes flash extended temperature range
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny4-TSHR
+D Atmel 8-bit AVR Microcontroller 12MHz with 512 bytes flash
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny5-MAHR
+D Atmel 8-bit AVR Microcontroller 12MHz with 512 bytes flash and adc
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny5-TS8R
+D Atmel 8-bit AVR Microcontroller 10MHz with 512 bytes flash and adc extended temperature range
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny5-TSHR
+D Atmel 8-bit AVR Microcontroller 12MHz with 512 bytes flash and adc
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny9-MAHR
+D Atmel 8-bit AVR Microcontroller 12MHz with 1024 bytes flash
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny9-TS8R
+D Atmel 8-bit AVR Microcontroller 10MHz with 1024 bytes flash extended temperature range
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny9-TSHR
+D Atmel 8-bit AVR Microcontroller 12MHz with 1024 bytes flash
+K atmel avr microcontroller
+F http://www.atmel.com/Images/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
 $ENDCMP
 #
 $CMP AVR-ISP-10
